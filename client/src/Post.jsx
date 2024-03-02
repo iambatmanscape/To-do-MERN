@@ -9,7 +9,7 @@ export default function Task({title,details,dueBy,id,completed}) {
    const [taskDone,setTaskDone] = useState(false)
    
    async function delPost() {
-      const url = 'http://localhost:3000/remove'
+      const url = 'https://to-do-mern-0wr6.onrender.com/remove'
       const obj = {
                method:"DELETE",
                headers:{
@@ -29,7 +29,7 @@ export default function Task({title,details,dueBy,id,completed}) {
    }
 
    async function updateTask() {
-      const url = 'http://localhost:3000/tasks/done'
+      const url = 'https://to-do-mern-0wr6.onrender.com/tasks/done'
       const obj = {
                method:"POST",
                headers:{

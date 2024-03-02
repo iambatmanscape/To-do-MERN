@@ -10,7 +10,7 @@ export default function Signup() {
 	})
 
 	async function submit() {
-		const url = 'http://localhost:3000/signup';
+		const url = 'https://to-do-mern-0wr6.onrender.com/signup';
 		if(values.name==='' || values.email==='' || values.password==='') {
 			console.error("Fields cannot be empty!")
 		} else {

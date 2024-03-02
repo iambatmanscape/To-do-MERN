@@ -19,7 +19,7 @@ export default function CreateTask({cancel}) {
    	 	console.log('Fields cannot be empty!')
    	 } else {
    	 	const uid = uuidv4();
-   	 	const url = 'http://localhost:3000/create'
+   	 	const url = 'https://to-do-mern-0wr6.onrender.com/create'
    	 	const obj = {
        	   	method:"POST",
        	   	headers:{

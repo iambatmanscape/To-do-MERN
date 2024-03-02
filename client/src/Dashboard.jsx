@@ -10,7 +10,7 @@ export default function Dashboard() {
 
 
     async function getPost() {
-      const url = 'http://localhost:3000/tasks';
+      const url = 'https://to-do-mern-0wr6.onrender.com/tasks';
       const id = sessionStorage.getItem('id');
       const obj = {
        	   	method:"POST",
