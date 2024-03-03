@@ -54,7 +54,8 @@ div.form {
   border: 1px solid black;
 }
 input.input {
-  width: 380px;
+  width: 18.75rem;
+  min-width: 100px;
   height: 1.3rem;
   font-size: 1rem;
   padding: 0.5rem 1rem;
@@ -144,3 +145,18 @@ div.task {
 }
 
 /*Create Task*/
+
+/*Responsiveness*/
+
+@media screen and (max-width: 800px) {
+  input.input {
+    width: 10rem;
+  }
+  .btn {
+    width: 100px;
+    font-size: 0.8rem;
+    
+  }
+}
+
+/*Responsiveness*/
