@@ -16,7 +16,7 @@ export default function Navigation() {
  },[id])
 	 function logout() {
 	 	sessionStorage.removeItem('id');
-	 	setId(null)
+	 	setLoggedIn(false)
 	 	Navigate('/')
 	 }
 

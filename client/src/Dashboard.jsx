@@ -33,6 +33,7 @@ export default function Dashboard() {
    useEffect(()=>{
    	 getPost()
    },[post])
+
     
 
 

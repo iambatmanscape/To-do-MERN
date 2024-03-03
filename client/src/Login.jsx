@@ -26,6 +26,7 @@ export default function Login() {
        	   	 const response = await fetch(url,obj);
        	   	 const data = await response.json();
        	   	 sessionStorage.setItem('id',data.id);
+       	   	 setLoggedIn(true)
        	   	 Navigate('/dash')
 
        	   } catch(e) {
